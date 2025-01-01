@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eae1df;
+    color: #333;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px;
+    background-color:  #333;
+    color: white;
+  }
+  .education1{
+    margin-top: 20px;
+  }
+  section{
+    margin: 20px;
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+   
+  }
+  .text{
+    text-align: center;
+  }
+  
+  .project {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    box-shadow: 4px 4px  4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    display: flex; 
+    justify-content: center;
+    gap: 14px;
+  }
+  .footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
